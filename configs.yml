@@ -1,0 +1,15 @@
+data: data/
+rebalance: data/RebalanceDates.csv
+VIX: data/VIX.csv
+rf: data/riskfree_US.csv
+quote_style:
+  american: [EUR, GBP, AUD, NZD]
+  eu: [JPY, CHF, CAD, NOK, SEK, CZK, HUF, PLN, TRY, ZAR, SGD, MXN, BRL, KRW, TWD]
+  one_bps: [EUR, GBP, CHF, CAD, AUD, NZD, NOK, SEK, PLN, TRY, ZAR, SGD, MXN, BRL]
+  ten_bps: [CZK, TWD]
+  hundred_bps: [JPY, HUF, KRW]
+de:
+  spot: de/spot
+  fwd1M: de/fwd1M
+  indices: de/indices
+  portfolios: de/portfolios
