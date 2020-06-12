@@ -164,7 +164,7 @@ class carry_backtest:
 
         plt.subplots_adjust(0.06, 0.04, 0.98, 0.99, 0.03, 0.00)
         plt.show()
-        exit()
+
 
 
 
